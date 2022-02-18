@@ -1,0 +1,27 @@
+@use "@styles/helpers/colours";
+
+.container {
+	@apply px-6 py-6 flex flex-row justify-center items-center bg-white border border-transparent rounded-lg;
+
+	.circleWrapper {
+		@apply h-16 w-16 mr-4 rounded-full relative grid place-items-center flex-grow;
+		background: linear-gradient(to right, red, purple);
+
+		.circle {
+			@apply h-12 w-12 inline-block rounded-full;
+			background: white;
+		}
+	}
+
+	.contentContainer {
+		.title {
+			@apply mb-2 sm:text-base md:text-2xl font-bold;
+			color: colours.$purpleOne;
+		}
+
+		.content {
+			@apply text-xs sm:text-sm;
+			color: colours.$greyOne;
+		}
+	}
+}
