@@ -11,11 +11,11 @@ const SectionFour = () => {
 				</div>
 
 				<div className='mb-4'>
-				<Image src="/icons/Group320@2x.png"	height={600} width={370} />
+				<Image src="/icons/Group321@2x.png"	height={600} width={370} />
 				</div>
 
 				<div className='mb-4'>
-				<Image src="/icons/Group320@2x.png"	height={600} width={370} />
+				<Image src="/icons/Group322@2x.png"	height={600} width={370} />
 				</div>
 			</div>
 		);
