@@ -1,5 +1,6 @@
 import Head from 'next/head';
 
+import SectionOne from '@components/SectionOne/sectionOne';
 import SectionThree from '@components/SectionThree/sectionThree';
 import SectionFour from '@components/SectionFour/sectionFour';
 
@@ -11,6 +12,7 @@ const Home = () => {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
+			<SectionOne />
 			<SectionThree />
 			<SectionFour />
 		</div>
